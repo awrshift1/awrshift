@@ -48,9 +48,62 @@ All in `context/`. Read at session start, update at session end.
 
 ## Session Workflow
 
-1. **Start** -- Read all `context/` files to restore state
-2. **During** -- Follow methodology from `framework/methodology.md`
-3. **End** -- Update `context/next-session.md` + `context/decisions.md` + `context/memory.md` if needed
+### Session Start
+Read all `context/` files to restore state. If this is the first session (files contain templates), introduce yourself and explain the framework briefly.
+
+### During Session
+Follow methodology from `framework/methodology.md`. Track decisions as they happen.
+
+### Session End (AUTOMATIC)
+
+**Trigger:** When the user signals the session is ending ("that's all", "let's wrap up", "bye", "done for today", "finish", closing the task, or completing the DECIDE phase), **automatically** do the following without being asked:
+
+**Step 1: Update `context/next-session.md`** -- overwrite with:
+```markdown
+# Next Session
+
+**Date:** [today's date]
+**Focus:** [what this session was about]
+**Status:** [one-line summary]
+
+## What Was Done
+- [list everything accomplished]
+
+## What's Next
+1. [most important next task]
+2. [second priority]
+
+## Decisions Made
+- [brief list, details in decisions.md]
+
+## Open Questions
+- [anything unresolved]
+```
+
+**Step 2: Update `context/decisions.md`** -- append new rows for any significant choices made during the session:
+```
+| D### | YYYY-MM-DD | [What was decided and why] | Active |
+```
+
+What counts as a decision:
+- Technology/tool/library choices
+- Architecture or design choices
+- Strategy or approach selection (especially from HYPOTHESIZE/DECIDE phases)
+- Trade-offs explicitly discussed and resolved
+- NOT routine implementation details or obvious choices
+
+**Step 3: Update `context/memory.md`** (only if new knowledge was discovered):
+- New tech stack components
+- New conventions or patterns
+- Lessons learned (things that broke, non-obvious behaviors)
+- User preferences discovered during the session
+
+**Step 4: Update experiment STATUS.md** (if an experiment is active):
+- Mark completed phases
+- Update current phase
+- Update status if experiment is done
+
+**Key rule:** Don't ask the user "should I update the files?" -- just do it. Show a brief summary of what was written so they can verify.
 
 ## Problem Solving (awrshift)
 

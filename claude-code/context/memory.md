@@ -1,4 +1,4 @@
-# MEMORY.md
+# Project Memory
 
 ## Project Overview
 - [One sentence: what this project does]
