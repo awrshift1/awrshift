@@ -71,7 +71,7 @@ If you use a coding AI in the terminal, awrshift integrates directly into your p
 curl -sL https://raw.githubusercontent.com/awrshift1/awrshift/main/install.sh | bash
 ```
 
-That's it. You get the full framework -- rules, memory files, decision log, and the `/think` command.
+**That's it. Just start talking.** Your AI already knows the entire framework. Describe any problem and it will ask you to choose a mode, create an experiment folder, research before building, and pause at every checkpoint for your approval. You don't need to read the docs, memorize phases, or type special commands. The rules are loaded automatically.
 
 <details>
 <summary>Manual install (if you prefer not to pipe to bash)</summary>
@@ -96,14 +96,15 @@ your-project/
     decisions.md             -- Decision log (choices made and why)
   framework/
     methodology.md           -- Full awrshift methodology (3 modes, all phases)
+    experiment-template.md   -- STATUS.md template for experiments
   .claude/
     commands/think.md        -- The /think command
     rules/awshift-phases.md  -- Phase enforcement (auto-loaded)
 ```
 
-Start a session and type `/think`. Your AI will follow the full awrshift method -- identifying the problem, researching, proposing a plan, and waiting for your approval before building anything.
+Just start a session and describe your problem. Or type `/think` for a guided start. Either way, the AI follows the full awrshift method automatically -- it identifies the problem, researches it, proposes a plan, and waits for your approval before building anything.
 
-**What happens after setup:** Your AI reads the rules and context files at the start of each session. It knows your project context, past decisions, and where the last session left off. It pauses at checkpoints, asks for your approval, and never skips research. You don't need to remind it -- the rules enforce the method automatically.
+**What happens after setup:** Your AI reads the rules and context files at the start of each session. It remembers your project context, past decisions, and where the last session left off. It pauses at checkpoints, asks for your approval, and never skips research. You don't need to explain the method or remind it of anything -- it already knows.
 
 ---
 
@@ -303,7 +304,7 @@ your-project/
     decisions.md       -- Decision log. Updated when choices are made.
 ```
 
-**`MEMORY.md`** -- What the AI should always know. Your tech stack, your conventions, lessons learned, important file paths. Think of it as the AI's long-term memory. You update it when you discover something important. Review it once a month and remove anything that's no longer true.
+**`memory.md`** -- What the AI should always know. Your tech stack, your conventions, lessons learned, important file paths. Think of it as the AI's long-term memory. You update it when you discover something important. Review it once a month and remove anything that's no longer true.
 
 **`next-session.md`** -- A note from today's AI to tomorrow's AI. "Here's what we did, here's what's next, here's what to watch out for." Gets overwritten each session. Takes 30 seconds to generate, saves 15 minutes of context-setting every morning.
 
@@ -311,7 +312,7 @@ your-project/
 
 Here's what this looks like in practice:
 
-**Monday morning.** You start a new session. The AI reads all three files. From `MEMORY.md`, it knows your project uses Next.js with PostgreSQL and you prefer TypeScript. From `next-session.md`, it knows you were working on the payment integration and the Stripe webhook still needs error handling. From `decisions.md`, it knows you chose Stripe over PayPal (decision D012) and decided to store payment records in a separate table (decision D015).
+**Monday morning.** You start a new session. The AI reads all three files. From `memory.md`, it knows your project uses Next.js with PostgreSQL and you prefer TypeScript. From `next-session.md`, it knows you were working on the payment integration and the Stripe webhook still needs error handling. From `decisions.md`, it knows you chose Stripe over PayPal (decision D012) and decided to store payment records in a separate table (decision D015).
 
 Without saying a word about context, you just type: "Let's finish the webhook error handling." And the AI knows exactly what you mean.
 
@@ -414,6 +415,7 @@ claude-code/           -- Ready-to-use setup for Claude Code / Windsurf
     decisions.md       -- Decision log (choices and reasoning)
   framework/           -- Methodology reference
     methodology.md     -- Full awrshift methodology (all phases, all modes)
+    experiment-template.md -- STATUS.md template for experiments
   .claude/commands/    -- The /think command
   .claude/rules/       -- Phase enforcement rules (auto-loaded)
 
