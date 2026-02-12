@@ -56,54 +56,14 @@ Follow methodology from `framework/methodology.md`. Track decisions as they happ
 
 ### Session End (AUTOMATIC)
 
-**Trigger:** When the user signals the session is ending ("that's all", "let's wrap up", "bye", "done for today", "finish", closing the task, or completing the DECIDE phase), **automatically** do the following without being asked:
+When the user signals the session is ending ("done", "let's wrap up", "bye", or completing DECIDE phase), **automatically update all context files without asking:**
 
-**Step 1: Update `context/next-session.md`** -- overwrite with:
-```markdown
-# Next Session
+1. **`context/next-session.md`** -- overwrite with what was done, what's next, open questions (follow the template format already in the file)
+2. **`context/decisions.md`** -- append new rows for significant choices made this session (tech choices, architecture, strategy -- not routine details)
+3. **`context/memory.md`** -- add new knowledge only if discovered (tech stack changes, conventions, lessons learned)
+4. **Experiment `STATUS.md`** -- update phases and status if an experiment is active
 
-**Date:** [today's date]
-**Focus:** [what this session was about]
-**Status:** [one-line summary]
-
-## What Was Done
-- [list everything accomplished]
-
-## What's Next
-1. [most important next task]
-2. [second priority]
-
-## Decisions Made
-- [brief list, details in decisions.md]
-
-## Open Questions
-- [anything unresolved]
-```
-
-**Step 2: Update `context/decisions.md`** -- append new rows for any significant choices made during the session:
-```
-| D### | YYYY-MM-DD | [What was decided and why] | Active |
-```
-
-What counts as a decision:
-- Technology/tool/library choices
-- Architecture or design choices
-- Strategy or approach selection (especially from HYPOTHESIZE/DECIDE phases)
-- Trade-offs explicitly discussed and resolved
-- NOT routine implementation details or obvious choices
-
-**Step 3: Update `context/memory.md`** (only if new knowledge was discovered):
-- New tech stack components
-- New conventions or patterns
-- Lessons learned (things that broke, non-obvious behaviors)
-- User preferences discovered during the session
-
-**Step 4: Update experiment STATUS.md** (if an experiment is active):
-- Mark completed phases
-- Update current phase
-- Update status if experiment is done
-
-**Key rule:** Don't ask the user "should I update the files?" -- just do it. Show a brief summary of what was written so they can verify.
+Don't ask "should I update?" -- just do it and show a brief summary.
 
 ## Problem Solving (awrshift)
 
