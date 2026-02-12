@@ -71,6 +71,7 @@ If you use a coding AI in the terminal, awrshift integrates directly into your p
 git clone https://github.com/awrshift1/awrshift.git
 cp -r awrshift/claude-code/.claude ./
 cp awrshift/claude-code/CLAUDE.md ./
+rm -rf awrshift
 ```
 
 Then start a session and type `/think`. Your AI will follow the full awrshift method -- identifying the problem, researching, proposing a plan, and waiting for your approval before building anything.
