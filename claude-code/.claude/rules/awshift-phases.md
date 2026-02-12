@@ -1,8 +1,8 @@
-# AWShift Phase Enforcement Rules
+# awrshift Phase Enforcement Rules
 
 ## Task Blocking
 
-Every AWShift phase must be a TaskCreate entry with blocking prerequisites. The system cannot skip phases because the next task is blocked.
+Every awrshift phase must be a TaskCreate entry with blocking prerequisites. The system cannot skip phases because the next task is blocked.
 
 Pattern:
 ```

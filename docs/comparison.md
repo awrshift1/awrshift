@@ -1,8 +1,8 @@
-# AWShift vs Other Frameworks
+# awrshift vs Other Frameworks
 
-AWShift is not a coding framework. It's a thinking layer for decisions.
+awrshift is not a coding framework. It's a thinking layer for decisions.
 
-Other frameworks help you write code. AWShift helps you make the right decisions before writing a single line. Choose the wrong architecture, and no framework will save you. Choose the right one, and any framework will work.
+Other frameworks help you write code. awrshift helps you make the right decisions before writing a single line. Choose the wrong architecture, and no framework will save you. Choose the right one, and any framework will work.
 
 Stop optimizing the build. Start optimizing the decision.
 
@@ -12,7 +12,7 @@ Stop optimizing the build. Start optimizing the decision.
 
 Forget feature checklists. Here's what actually changes when you use each framework:
 
-| | AWShift | BMAD Method | Superpowers | Spec Kit |
+| | awrshift | BMAD Method | Superpowers | Spec Kit |
 |---|---------|-------------|-------------|----------|
 | **Before you build** | 3 research phases. You know the problem, the evidence, and the success bar. | Role-based agents discuss scope | Jump to coding | Write a spec from requirements |
 | **During build** | VERIFY (Fact-check the plan) blocks IMPLEMENT (Build it). Your plan is evidence-checked. | Agile sprints with agent roles | AI generates code | AI follows the spec |
@@ -25,7 +25,7 @@ Forget feature checklists. Here's what actually changes when you use each framew
 
 ## When to Use What
 
-### AWShift — when the decision matters more than the code
+### awrshift — when the decision matters more than the code
 
 The decision IS the hard part. The code is just execution.
 
@@ -36,7 +36,7 @@ The decision IS the hard part. The code is just execution.
 - Hiring strategy when three candidates are strong
 - Any decision where being wrong is expensive
 
-AWShift won't write your code. It will make sure you write the right code.
+awrshift won't write your code. It will make sure you write the right code.
 
 ### BMAD Method — when you need a team structure for building
 
@@ -64,28 +64,28 @@ Someone already decided. Now you need it built.
 
 ---
 
-## Combine AWShift with Others
+## Combine awrshift with Others
 
-AWShift is a thinking layer. It sits above execution frameworks, not beside them.
+awrshift is a thinking layer. It sits above execution frameworks, not beside them.
 
-Think of it this way: AWShift decides WHAT and WHY. Other frameworks handle HOW.
+Think of it this way: awrshift decides WHAT and WHY. Other frameworks handle HOW.
 
 | Combination | How it works | When this wins |
 |-------------|-------------|----------------|
-| **AWShift + BMAD** | AWShift runs IDENTIFY (Name the problem) through DECIDE (Ship, iterate, or rollback). Once you know what to build, BMAD takes over for sprint execution within IMPLEMENT (Build it). | You need structured decisions AND organized team execution. The research phases prevent building the wrong thing. BMAD prevents building the right thing badly. |
-| **AWShift + Superpowers** | AWShift handles IDENTIFY (Name the problem) through PLAN (Map it out) — research, hypotheses, evaluation criteria. Superpowers handles coding tasks within the IMPLEMENT (Build it) phase. | You need evidence-based planning AND high-quality code generation. AWShift makes sure you're solving the right problem. Superpowers makes sure the code is clean. |
-| **AWShift + Spec Kit** | AWShift decides WHAT to build through HYPOTHESIZE (Pick your best guess) and EVAL-DESIGN (Set the bar). Spec Kit generates the detailed spec that feeds into PLAN (Map it out). | Requirements aren't clear yet. AWShift's research phases crystallize what you actually need. Then Spec Kit automates the spec-to-code pipeline. |
-| **AWShift alone** | Full standalone framework. No dependencies. Works for coding decisions, life decisions, strategy, hiring — anything with stakes. One markdown file, any AI assistant. | The decision IS the deliverable. No code needed. Or the project is small enough that one person handles both thinking and building. |
+| **awrshift + BMAD** | awrshift runs IDENTIFY (Name the problem) through DECIDE (Ship, iterate, or rollback). Once you know what to build, BMAD takes over for sprint execution within IMPLEMENT (Build it). | You need structured decisions AND organized team execution. The research phases prevent building the wrong thing. BMAD prevents building the right thing badly. |
+| **awrshift + Superpowers** | awrshift handles IDENTIFY (Name the problem) through PLAN (Map it out) — research, hypotheses, evaluation criteria. Superpowers handles coding tasks within the IMPLEMENT (Build it) phase. | You need evidence-based planning AND high-quality code generation. awrshift makes sure you're solving the right problem. Superpowers makes sure the code is clean. |
+| **awrshift + Spec Kit** | awrshift decides WHAT to build through HYPOTHESIZE (Pick your best guess) and EVAL-DESIGN (Set the bar). Spec Kit generates the detailed spec that feeds into PLAN (Map it out). | Requirements aren't clear yet. awrshift's research phases crystallize what you actually need. Then Spec Kit automates the spec-to-code pipeline. |
+| **awrshift alone** | Full standalone framework. No dependencies. Works for coding decisions, life decisions, strategy, hiring — anything with stakes. One markdown file, any AI assistant. | The decision IS the deliverable. No code needed. Or the project is small enough that one person handles both thinking and building. |
 
-The pattern is always the same: **AWShift for the brain work. Other frameworks for the hand work.**
+The pattern is always the same: **awrshift for the brain work. Other frameworks for the hand work.**
 
 ---
 
-## What Makes AWShift Different
+## What Makes awrshift Different
 
 ### 1. Research is mandatory, not optional
 
-Most frameworks trust the AI's memory. AWShift doesn't.
+Most frameworks trust the AI's memory. awrshift doesn't.
 
 IDENTIFY (Name the problem), FORMULATE (Ask the right questions), RESEARCH (Find the evidence) — three phases before you even propose a solution. Your AI investigates the real world. Official docs, benchmarks, primary sources. Not training data from two years ago.
 
@@ -99,7 +99,7 @@ No more "it feels good enough." You know the bar. You either clear it or you don
 
 ### 3. Checkpoints are structural, not suggestions
 
-AWShift doesn't suggest you review the plan. It blocks execution until you approve.
+awrshift doesn't suggest you review the plan. It blocks execution until you approve.
 
 Five checkpoints in Standard mode. Six in Scientific. FORMULATE (Ask the right questions), HYPOTHESIZE (Pick your best guess), EVAL-DESIGN (Set the bar), PLAN (Map it out), DECIDE (Ship, iterate, or rollback) — and COMPARE (Pick the winner) in Scientific mode. Your AI pauses and waits. Every time.
 
@@ -113,7 +113,7 @@ The framework grows with the problem. You don't commit to heavyweight process fo
 
 ### 5. Works beyond code
 
-AWShift handles product decisions, marketing strategy, hiring processes, architecture reviews, school choices, city moves — anything where structured thinking with evidence beats guessing.
+awrshift handles product decisions, marketing strategy, hiring processes, architecture reviews, school choices, city moves — anything where structured thinking with evidence beats guessing.
 
 One framework. Every decision. No domain restrictions.
 
@@ -121,16 +121,16 @@ One framework. Every decision. No domain restrictions.
 
 ## The Non-Technical Frame
 
-**AWShift is for decisions. Others are for code.**
+**awrshift is for decisions. Others are for code.**
 
 If your bottleneck is code quality — use Superpowers. If your bottleneck is team coordination — use BMAD. If your bottleneck is spec-to-code automation — use Spec Kit.
 
 But if your bottleneck is making the right call? If you've ever shipped the wrong feature, picked the wrong tool, or realized too late that nobody validated the assumption?
 
-That's AWShift territory.
+That's awrshift territory.
 
 One file. Any AI. Every decision that matters.
 
 ---
 
-*AWShift is not a replacement. It's a layer. Think first, build with whatever tools you want.*
+*awrshift is not a replacement. It's a layer. Think first, build with whatever tools you want.*

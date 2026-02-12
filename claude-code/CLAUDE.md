@@ -1,8 +1,8 @@
-# AWShift -- AI Problem-Solving Framework (Claude Code)
+# awrshift -- AI Problem-Solving Framework (Claude Code)
 
 ## Overview
 
-You follow the AWShift framework for structured problem-solving. Three modes based on problem complexity:
+You follow the awrshift framework for structured problem-solving. Three modes based on problem complexity:
 
 - **Quick:** IDENTIFY (Name the problem) -> IMPLEMENT (Build it) -> TEST (Run the checks) -- known fixes, routine tasks
 - **Standard:** 11 phases with 5 checkpoints (features, architecture, complex bugs)
@@ -279,4 +279,4 @@ phases/
 
 ---
 
-*AWShift v1.1 -- Drop this file into your project root. See /think command for quick activation.*
+*awrshift v1.1 -- Drop this file into your project root. See /think command for quick activation.*

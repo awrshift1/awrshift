@@ -1,4 +1,4 @@
-Activate the AWShift problem-solving framework.
+Activate the awrshift problem-solving framework.
 
 ## Step 1: Assess complexity
 
@@ -26,7 +26,7 @@ Options:
    - FORMULATE phase happens inline via AskUserQuestion (no task)
 2. Start IDENTIFY (Name the problem): read relevant files, define problem/current/target/gap/unknowns
 3. FORMULATE (Ask the right questions): use AskUserQuestion to present research questions — user validates
-4. RESEARCH (Find the evidence): launch parallel agents via Task(run_in_background=true)
+4. RESEARCH (Find the evidence): launch parallel research tracks via Task(run_in_background=true)
 5. At every checkpoint (FORMULATE, HYPOTHESIZE, EVAL-DESIGN, PLAN, DECIDE), use AskUserQuestion with structured options and wait for approval
 6. PLAN (Map it out): use EnterPlanMode → explore codebase → write plan → ExitPlanMode
 7. VERIFY (Fact-check the plan) must PASS before IMPLEMENT can start

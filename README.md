@@ -1,9 +1,9 @@
 <h1 align="center">
   <a href="https://github.com/awrshift1/awrshift">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="media/hero-banner.svg">
-      <source media="(prefers-color-scheme: light)" srcset="media/hero-banner.svg">
-      <img alt="awrshift" src="media/hero-banner.svg" width="600">
+      <!-- media/hero-banner.png will be added -->
+      
+      <img alt="awrshift" src="https://img.shields.io/badge/awrshift-Think%20before%20you%20build-gold?style=for-the-badge&labelColor=0a0a0a" width="400">
     </picture>
   </a>
 </h1>
@@ -96,7 +96,7 @@ The result: decisions you actually trust, built on research instead of guesswork
 Here's the difference:
 
 <p align="center">
-  <img src="media/diagram-before-after.svg" alt="Before and After awrshift" width="600">
+  <!-- diagram-before-after.png will be added -->
 </p>
 
 **Without awrshift:** You ask a question. The AI gives you an answer in 3 seconds. You have no idea if it's good. You use it anyway. Sometimes it works. Sometimes you waste an entire day fixing what the AI confidently got wrong.
@@ -122,7 +122,7 @@ Not every problem needs the same process. A typo fix doesn't need three rounds o
 awrshift has three modes. Start with Quick. Level up when the problem demands it.
 
 <p align="center">
-  <img src="media/diagram-three-modes.svg" alt="Three Modes: Quick, Standard, Scientific" width="600">
+  <!-- diagram-three-modes.png will be added -->
 </p>
 
 ### Quick Mode -- 3 steps
