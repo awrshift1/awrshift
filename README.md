@@ -1,6 +1,6 @@
 <h1 align="center">
   <a href="https://github.com/awrshift1/awrshift">
-    <img alt="awrshift" src="media/hero-banner.png" width="600">
+    <img alt="awrshift" src="media/hero-banner.png" width="100%">
   </a>
 </h1>
 
