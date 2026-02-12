@@ -66,7 +66,29 @@ When unsure, start Quick. Level up if unknowns emerge.
 
 ## Experiment Auto-Setup
 
-When the user asks to solve a task using the framework (any phrasing: "use awrshift for...", "let's solve X", "create experiment for...", or `/think`), **automatically**:
+When the user asks to solve a task using the framework (any phrasing: "use awrshift for...", "let's solve X", "create experiment for...", or `/think`):
+
+### Step 1: Ask the user to choose a mode (MANDATORY)
+
+**ALWAYS use `AskUserQuestion` BEFORE creating anything.** Never pick a mode yourself.
+
+```
+Question: "How should we approach this?"
+Header: "Mode"
+Options:
+  - label: "Quick (Recommended for known fixes)"
+    description: "3 steps: Name the problem -> Build it -> Test it. For routine tasks where you already know the fix."
+  - label: "Standard"
+    description: "11 phases with 5 checkpoints. Research first, then build. For new features, complex bugs, architecture."
+  - label: "Scientific"
+    description: "13 phases with hypothesis testing. Compare multiple approaches with data. For high-stakes decisions."
+```
+
+The user can also type a custom answer -- respect it.
+
+### Step 2: Create experiment folder
+
+After the user selects a mode:
 
 1. **Create experiment folder:**
    ```
@@ -76,7 +98,7 @@ When the user asks to solve a task using the framework (any phrasing: "use awrsh
    ```
    Name: lowercase, hyphenated, descriptive (e.g., `database-migration`, `auth-redesign`)
 
-2. **Create STATUS.md** with task name, selected mode, and current phase
+2. **Create STATUS.md** based on `framework/experiment-template.md`
 3. **Create phase files** as you complete each phase — write findings into `phases/01-identify.md`, `phases/02-research.md`, etc.
 4. **Follow the methodology** from `framework/methodology.md`
 
