@@ -18,6 +18,7 @@ Strategy, product, and growth decisions where money and reputation are on the li
 
 | Example | Mode | Scenario | Key Takeaway |
 |---------|------|----------|--------------|
+| [GTM Strategy for Europe](business/gtm-strategy-europe.md) | Scientific | Three go-to-market approaches for entering Europe | A regulatory advantage nobody expected changes the "obvious" winner. Flagship example. |
 | [Product Launch](business/product-launch.md) | Standard | Building a SaaS notification system | 5 checkpoints caught a security gap in the plan. Research-backed metrics set realistic targets. |
 | [Marketing Strategy](business/marketing-strategy.md) | Standard | Planning Q3 marketing with a $50K budget | Research killed the "just run Facebook ads" instinct. That one insight redirected $15K toward channels that actually convert for B2B. |
 
@@ -36,7 +37,7 @@ Architecture and engineering decisions where the wrong choice costs months.
 |------|------------|--------|----------|
 | **Quick** | Known fix, low risk, just try it | 3 | [Bug Investigation](technical/bug-investigation.md) (starting point) |
 | **Standard** | Most decisions — features, plans, hires | 11 | [Planning a Move](life/planning-a-move.md), [Product Launch](business/product-launch.md), [Hiring](life/hiring-a-candidate.md), [Marketing](business/marketing-strategy.md) |
-| **Scientific** | High stakes, multiple options, no clear winner | 13 | [Choosing a School](life/choosing-a-school.md), [Architecture](technical/architecture-decision.md) |
+| **Scientific** | High stakes, multiple options, no clear winner | 13 | [GTM Strategy](business/gtm-strategy-europe.md), [Choosing a School](life/choosing-a-school.md), [Architecture](technical/architecture-decision.md) |
 
 ## How to Read These Examples
 
@@ -56,6 +57,7 @@ examples/
 │   ├── planning-a-move.md             (Standard mode)
 │   └── hiring-a-candidate.md          (Standard mode)
 ├── business/
+│   ├── gtm-strategy-europe.md         (Scientific mode) ★ flagship
 │   ├── product-launch.md              (Standard mode)
 │   └── marketing-strategy.md          (Standard mode)
 └── technical/
