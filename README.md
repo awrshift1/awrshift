@@ -1,10 +1,6 @@
 <h1 align="center">
   <a href="https://github.com/awrshift1/awrshift">
-    <picture>
-      <!-- media/hero-banner.png will be added -->
-      
-      <img alt="awrshift" src="https://img.shields.io/badge/awrshift-Think%20before%20you%20build-gold?style=for-the-badge&labelColor=0a0a0a" width="400">
-    </picture>
+    <img alt="awrshift" src="media/hero-banner.png" width="600">
   </a>
 </h1>
 
@@ -95,13 +91,9 @@ The result: decisions you actually trust, built on research instead of guesswork
 
 Here's the difference:
 
-<p align="center">
-  <!-- diagram-before-after.png will be added -->
-</p>
-
-**Without awrshift:** You ask a question. The AI gives you an answer in 3 seconds. You have no idea if it's good. You use it anyway. Sometimes it works. Sometimes you waste an entire day fixing what the AI confidently got wrong.
-
-**With awrshift:** You describe a problem. The AI researches it, shows you what it found, proposes options with trade-offs, and waits for your "go ahead" before doing anything. You make decisions based on evidence, not vibes.
+> **Without awrshift:** You ask a question. The AI gives you an answer in 3 seconds. You have no idea if it's good. You use it anyway. Sometimes it works. Sometimes you waste an entire day fixing what the AI confidently got wrong.
+>
+> **With awrshift:** You describe a problem. The AI researches it, shows you what it found, proposes options with trade-offs, and waits for your "go ahead" before doing anything. You make decisions based on evidence, not vibes.
 
 The method is simple:
 - **AI proposes, you decide.** At every checkpoint, the AI shows its work and waits.
@@ -121,9 +113,10 @@ Not every problem needs the same process. A typo fix doesn't need three rounds o
 
 awrshift has three modes. Start with Quick. Level up when the problem demands it.
 
-<p align="center">
-  <!-- diagram-three-modes.png will be added -->
-</p>
+| Quick | | Standard | | Scientific |
+|:---:|:---:|:---:|:---:|:---:|
+| **3 steps** | → | **11 phases · 5 checkpoints** | → | **13 phases · 6 checkpoints** |
+| Known problems, routine tasks | *Level up* | New features, complex problems | *Level up* | High-stakes, multiple options |
 
 ### Quick Mode -- 3 steps
 
