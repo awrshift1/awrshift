@@ -304,11 +304,16 @@ your-project/
     decisions.md       -- Decision log. Updated when choices are made.
 ```
 
-**`memory.md`** -- What the AI should always know. Your tech stack, your conventions, lessons learned, important file paths. Think of it as the AI's long-term memory. You update it when you discover something important. Review it once a month and remove anything that's no longer true.
+**[`memory.md`](claude-code/context/memory.md)** -- What the AI should always know. Your tech stack, your conventions, lessons learned, important file paths. Think of it as the AI's long-term memory. You update it when you discover something important. Review it once a month and remove anything that's no longer true.
 
-**`next-session.md`** -- A note from today's AI to tomorrow's AI. "Here's what we did, here's what's next, here's what to watch out for." Gets overwritten each session. Takes 30 seconds to generate, saves 15 minutes of context-setting every morning.
+**[`next-session.md`](claude-code/context/next-session.md)** -- A note from today's AI to tomorrow's AI. "Here's what we did, here's what's next, here's what to watch out for." Gets overwritten each session. Takes 30 seconds to generate, saves 15 minutes of context-setting every morning. You use it in two situations:
 
-**`decisions.md`** -- Every significant decision made in the project, with a short "why." This is the most underrated file. Without it, your AI will cheerfully suggest approaches you already considered and rejected. With it, the AI knows: "We chose REST over GraphQL because our team is small and simplicity matters more than flexibility right now."
+- **Ending a session:** Just say "fill out the handoff note" -- the AI summarizes what was done, what's next, and any open questions.
+- **Starting a session:** Just say "read the context files" -- the AI picks up exactly where you left off.
+
+This also saves you when the AI's context window fills up. In Claude Code, that happens after long sessions -- the AI starts forgetting earlier parts of the conversation. When that happens, say "fill out the handoff note" before the context is lost. Then run `/compact` (a built-in Claude Code command that compresses the conversation history) and tell the AI: "read the context files." It will reload your project state from the three files and continue working as if nothing happened. Same trick works when starting a completely new session the next day.
+
+**[`decisions.md`](claude-code/context/decisions.md)** -- Every significant decision made in the project, with a short "why." This is the most underrated file. Without it, your AI will cheerfully suggest approaches you already considered and rejected. With it, the AI knows: "We chose REST over GraphQL because our team is small and simplicity matters more than flexibility right now."
 
 Here's what this looks like in practice:
 
