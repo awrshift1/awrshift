@@ -81,6 +81,7 @@ git clone https://github.com/awrshift1/awrshift.git
 cp -r awrshift/claude-code/.claude ./
 cp awrshift/claude-code/CLAUDE.md ./
 cp -r awrshift/claude-code/context ./
+cp -r awrshift/claude-code/framework ./
 rm -rf awrshift
 ```
 </details>
@@ -88,14 +89,16 @@ rm -rf awrshift
 **After setup, you'll have:**
 ```
 your-project/
-  CLAUDE.md              -- Framework rules (read by AI automatically)
+  CLAUDE.md                  -- System instructions (short index file)
   context/
-    memory.md            -- Project memory (tech stack, conventions, lessons)
-    next-session.md      -- Session handoff (what was done, what's next)
-    decisions.md         -- Decision log (choices made and why)
+    memory.md                -- Project memory (tech stack, conventions)
+    next-session.md          -- Session handoff (what was done, what's next)
+    decisions.md             -- Decision log (choices made and why)
+  framework/
+    methodology.md           -- Full awrshift methodology (3 modes, all phases)
   .claude/
-    commands/think.md    -- The /think command
-    rules/               -- Phase enforcement
+    commands/think.md        -- The /think command
+    rules/awshift-phases.md  -- Phase enforcement (auto-loaded)
 ```
 
 Start a session and type `/think`. Your AI will follow the full awrshift method -- identifying the problem, researching, proposing a plan, and waiting for your approval before building anything.
@@ -404,13 +407,15 @@ examples/
     bug-investigation.md   -- Quick -> Standard (technical decision)
 
 claude-code/           -- Ready-to-use setup for Claude Code / Windsurf
-  CLAUDE.md            -- Project instructions (framework + rules)
-  context/
-    memory.md          -- Project memory template (tech stack, conventions)
-    next-session.md    -- Session handoff template (what was done, what's next)
-    decisions.md       -- Decision log template (track choices and reasoning)
+  CLAUDE.md            -- System instructions (short index file)
+  context/             -- Session memory templates
+    memory.md          -- Project memory (tech stack, conventions)
+    next-session.md    -- Session handoff (what was done, what's next)
+    decisions.md       -- Decision log (choices and reasoning)
+  framework/           -- Methodology reference
+    methodology.md     -- Full awrshift methodology (all phases, all modes)
   .claude/commands/    -- The /think command
-  .claude/rules/       -- Phase enforcement rules
+  .claude/rules/       -- Phase enforcement rules (auto-loaded)
 
 docs/
   brain.md             -- Guide to giving your AI a memory
