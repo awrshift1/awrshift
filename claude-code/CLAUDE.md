@@ -12,26 +12,26 @@ You follow the awrshift framework for structured problem-solving. Three modes ba
 
 ## Context Files (Your AI's Memory)
 
-Three files give your AI persistent memory across sessions. Read them at the start of every session.
+Three files in `context/` give your AI persistent memory across sessions. Read them at the start of every session.
 
 | File | Purpose | Update When |
 |------|---------|-------------|
-| `MEMORY.md` | Permanent project knowledge -- tech stack, conventions, lessons learned | New important discovery or convention change |
-| `next-session.md` | Session handoff -- what was done, what's next, open questions | End of every session |
-| `decisions.md` | Decision log -- choices made and why, prevents re-discussing settled topics | When a significant decision is made |
+| `context/memory.md` | Permanent project knowledge -- tech stack, conventions, lessons learned | New important discovery or convention change |
+| `context/next-session.md` | Session handoff -- what was done, what's next, open questions | End of every session |
+| `context/decisions.md` | Decision log -- choices made and why, prevents re-discussing settled topics | When a significant decision is made |
 
 ### Session Start
-1. Read `next-session.md` -- understand where the last session left off
-2. Read `MEMORY.md` -- recall project context, conventions, known pitfalls
-3. Read `decisions.md` -- know what was already decided (don't re-discuss Active decisions)
+1. Read `context/next-session.md` -- understand where the last session left off
+2. Read `context/memory.md` -- recall project context, conventions, known pitfalls
+3. Read `context/decisions.md` -- know what was already decided (don't re-discuss Active decisions)
 
 ### Session End
-1. Update `next-session.md` -- write a handoff note for the next session (what was done, what's next, what to watch out for)
-2. Add new entries to `decisions.md` -- any significant choices made during this session
-3. Update `MEMORY.md` -- if you learned something important about the project (new conventions, architecture changes, lessons)
+1. Update `context/next-session.md` -- write a handoff note for the next session (what was done, what's next, what to watch out for)
+2. Add new entries to `context/decisions.md` -- any significant choices made during this session
+3. Update `context/memory.md` -- if you learned something important about the project (new conventions, architecture changes, lessons)
 
 ### Decision Log Format
-Each decision in `decisions.md` follows this format:
+Each decision in `context/decisions.md` follows this format:
 
 | ID | Date | Decision | Status |
 |----|------|----------|--------|

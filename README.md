@@ -79,7 +79,8 @@ That's it. You get the full framework -- rules, memory files, decision log, and 
 ```bash
 git clone https://github.com/awrshift1/awrshift.git
 cp -r awrshift/claude-code/.claude ./
-cp awrshift/claude-code/*.md ./
+cp awrshift/claude-code/CLAUDE.md ./
+cp -r awrshift/claude-code/context ./
 rm -rf awrshift
 ```
 </details>
@@ -87,13 +88,14 @@ rm -rf awrshift
 **After setup, you'll have:**
 ```
 your-project/
-  CLAUDE.md          -- Framework rules (read by AI automatically)
-  MEMORY.md          -- Project memory (tech stack, conventions, lessons)
-  next-session.md    -- Session handoff (what was done, what's next)
-  decisions.md       -- Decision log (choices made and why)
+  CLAUDE.md              -- Framework rules (read by AI automatically)
+  context/
+    memory.md            -- Project memory (tech stack, conventions, lessons)
+    next-session.md      -- Session handoff (what was done, what's next)
+    decisions.md         -- Decision log (choices made and why)
   .claude/
-    commands/think.md  -- The /think command
-    rules/             -- Phase enforcement
+    commands/think.md    -- The /think command
+    rules/               -- Phase enforcement
 ```
 
 Start a session and type `/think`. Your AI will follow the full awrshift method -- identifying the problem, researching, proposing a plan, and waiting for your approval before building anything.
@@ -292,9 +294,10 @@ The fix is embarrassingly simple. Three plain text files that live in your proje
 
 ```
 your-project/
-  MEMORY.md          -- Permanent facts. Updated rarely.
-  next-session.md    -- Handoff note. Updated every session.
-  decisions.md       -- Decision log. Updated when choices are made.
+  context/
+    memory.md          -- Permanent facts. Updated rarely.
+    next-session.md    -- Handoff note. Updated every session.
+    decisions.md       -- Decision log. Updated when choices are made.
 ```
 
 **`MEMORY.md`** -- What the AI should always know. Your tech stack, your conventions, lessons learned, important file paths. Think of it as the AI's long-term memory. You update it when you discover something important. Review it once a month and remove anything that's no longer true.
@@ -402,9 +405,10 @@ examples/
 
 claude-code/           -- Ready-to-use setup for Claude Code / Windsurf
   CLAUDE.md            -- Project instructions (framework + rules)
-  MEMORY.md            -- Project memory template (tech stack, conventions, lessons)
-  next-session.md      -- Session handoff template (what was done, what's next)
-  decisions.md         -- Decision log template (track choices and reasoning)
+  context/
+    memory.md          -- Project memory template (tech stack, conventions)
+    next-session.md    -- Session handoff template (what was done, what's next)
+    decisions.md       -- Decision log template (track choices and reasoning)
   .claude/commands/    -- The /think command
   .claude/rules/       -- Phase enforcement rules
 
