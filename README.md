@@ -65,20 +65,40 @@ That's the Quick mode version. The [full prompt](framework/prompt.md) includes S
 
 ### Path B: Claude Code or Windsurf
 
-If you use a coding AI in the terminal, awrshift integrates directly into your project:
+If you use a coding AI in the terminal, awrshift integrates directly into your project. One command:
+
+```bash
+curl -sL https://raw.githubusercontent.com/awrshift1/awrshift/main/install.sh | bash
+```
+
+That's it. You get the full framework -- rules, memory files, decision log, and the `/think` command.
+
+<details>
+<summary>Manual install (if you prefer not to pipe to bash)</summary>
 
 ```bash
 git clone https://github.com/awrshift1/awrshift.git
 cp -r awrshift/claude-code/.claude ./
-cp awrshift/claude-code/CLAUDE.md ./
+cp awrshift/claude-code/*.md ./
 rm -rf awrshift
 ```
+</details>
 
-Then start a session and type `/think`. Your AI will follow the full awrshift method -- identifying the problem, researching, proposing a plan, and waiting for your approval before building anything.
+**After setup, you'll have:**
+```
+your-project/
+  CLAUDE.md          -- Framework rules (read by AI automatically)
+  MEMORY.md          -- Project memory (tech stack, conventions, lessons)
+  next-session.md    -- Session handoff (what was done, what's next)
+  decisions.md       -- Decision log (choices made and why)
+  .claude/
+    commands/think.md  -- The /think command
+    rules/             -- Phase enforcement
+```
 
-The `/think` command automatically picks the right mode (Quick, Standard, or Scientific) based on the complexity of your task.
+Start a session and type `/think`. Your AI will follow the full awrshift method -- identifying the problem, researching, proposing a plan, and waiting for your approval before building anything.
 
-**What happens after setup:** Your AI reads the rules at the start of each session. It knows to pause at checkpoints, ask for your approval, and never skip research. You don't need to remind it -- the rules enforce the method automatically.
+**What happens after setup:** Your AI reads the rules and context files at the start of each session. It knows your project context, past decisions, and where the last session left off. It pauses at checkpoints, asks for your approval, and never skips research. You don't need to remind it -- the rules enforce the method automatically.
 
 ---
 
@@ -381,7 +401,10 @@ examples/
     bug-investigation.md   -- Quick -> Standard (technical decision)
 
 claude-code/           -- Ready-to-use setup for Claude Code / Windsurf
-  CLAUDE.md            -- Project instructions
+  CLAUDE.md            -- Project instructions (framework + rules)
+  MEMORY.md            -- Project memory template (tech stack, conventions, lessons)
+  next-session.md      -- Session handoff template (what was done, what's next)
+  decisions.md         -- Decision log template (track choices and reasoning)
   .claude/commands/    -- The /think command
   .claude/rules/       -- Phase enforcement rules
 
