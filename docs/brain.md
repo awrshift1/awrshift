@@ -12,15 +12,15 @@ AI tools like Claude Code, Cursor, Windsurf, and ChatGPT don't remember previous
 
 You solve this with three plain text files that live in your project folder. The AI reads them at the start of every session. Think of them as the AI's notebook:
 
-1. **Memory File** (`MEMORY.md`) -- Everything the AI should always know. Permanent notes. Updated rarely.
-2. **Session Handoff** (`next-session.md`) -- A note from today's AI to tomorrow's AI. "Here's what we did, here's what's next." Updated at the end of every session.
-3. **Decision Log** (`decisions.md`) -- A list of every decision made in the project. Prevents the AI from re-debating things you already settled.
+1. **Memory File** (`context/memory.md`) -- Everything the AI should always know. Permanent notes. Updated rarely.
+2. **Session Handoff** (`context/next-session.md`) -- A note from today's AI to tomorrow's AI. "Here's what we did, here's what's next." Updated at the end of every session.
+3. **Decision Log** (`context/decisions.md`) -- A list of every decision made in the project. Prevents the AI from re-debating things you already settled.
 
 Together, these three files give your AI continuity. Not perfect memory -- but enough to pick up where you left off instead of starting from scratch.
 
 ---
 
-## 1. Memory File (MEMORY.md)
+## 1. Memory File (memory.md)
 
 ### What It Is
 
@@ -50,7 +50,7 @@ Add new entries when you discover something important. Delete entries when they 
 ### Template
 
 ```markdown
-# MEMORY.md
+# Project Memory
 
 ## Project Overview
 - [One sentence: what this project does]
@@ -170,40 +170,33 @@ Decisions made in this project. Once decided, don't re-discuss unless status cha
 
 **Time needed: 5 minutes.**
 
-### Step 1: Create the files
+### If you installed awrshift (Claude Code / Windsurf)
 
-In your project's root folder, create three files:
+**You're already set.** The install script created all three files in `context/`. Your AI reads them automatically at session start and updates them automatically at session end. No manual work needed.
 
 ```
 your-project/
-  MEMORY.md
-  next-session.md
-  decisions.md
+  context/
+    memory.md          -- Fill in your project basics
+    next-session.md    -- AI updates this automatically
+    decisions.md       -- AI appends decisions automatically
 ```
 
-### Step 2: Fill in the basics
+The only step: open `context/memory.md` and write 3-5 bullet points about your project (tech stack, conventions). The AI fills in the rest over time.
 
-Open `MEMORY.md` and write 3-5 bullet points about your project. What it does, what tech you use, any important conventions. Don't overthink it -- you'll add more over time.
+### If you're using a web AI (ChatGPT, Gemini, etc.)
 
-Leave `next-session.md` empty for now. You'll fill it at the end of your first session.
+Create three files manually in your project:
 
-Start `decisions.md` with the table header and one or two decisions you've already made.
+```
+your-project/
+  context/
+    memory.md
+    next-session.md
+    decisions.md
+```
 
-### Step 3: Tell the AI to read them
-
-At the start of each session, say:
-
-> "Read MEMORY.md, next-session.md, and decisions.md before we begin."
-
-Some tools (Claude Code, Cursor) can be configured to read these files automatically. Check your tool's documentation for "project instructions" or "context files."
-
-### Step 4: Update at session end
-
-Before closing each session, say:
-
-> "Update the session handoff note in next-session.md."
-
-If you made any important decisions during the session, add them to `decisions.md`. If you discovered something permanent (a lesson learned, a new convention), add it to `MEMORY.md`.
+At the start of each session, paste the contents into your chat. At the end, ask the AI to generate updated versions and save them.
 
 That's it. Three files. Five minutes of setup. And your AI stops forgetting everything overnight.
 
@@ -213,7 +206,7 @@ That's it. Three files. Five minutes of setup. And your AI stops forgetting ever
 
 Here's a typical workflow after setup:
 
-**Monday morning.** You start a new session. The AI reads all three files. From `MEMORY.md`, it knows your project uses Next.js with PostgreSQL and you prefer TypeScript. From `next-session.md`, it knows you were working on the payment integration and the Stripe webhook still needs error handling. From `decisions.md`, it knows you chose Stripe over PayPal (decision D012) and decided to store payment records in a separate table (decision D015).
+**Monday morning.** You start a new session. The AI reads all three files. From `memory.md`, it knows your project uses Next.js with PostgreSQL and you prefer TypeScript. From `next-session.md`, it knows you were working on the payment integration and the Stripe webhook still needs error handling. From `decisions.md`, it knows you chose Stripe over PayPal (decision D012) and decided to store payment records in a separate table (decision D015).
 
 Without saying a word about context, you can just type: "Let's finish the webhook error handling." And the AI knows exactly what you mean.
 

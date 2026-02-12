@@ -19,7 +19,7 @@ Forget feature checklists. Here's what actually changes when you use each framew
 | **After you build** | EVALUATE (Score against the bar) measures results against predefined metrics. Ship, iterate, or rollback. | Sprint retrospective | Manual review | Compare to spec |
 | **Who decides** | You. 5-6 explicit checkpoints. The AI proposes. You approve. Every time. | Team roles | You review output | You review output |
 | **Works beyond code** | Yes. Schools, moves, hiring, strategy, product naming. Any decision with stakes. | No — software only | No — code only | No — software only |
-| **Setup** | Copy 1 markdown file | Clone repo + configure agents | Clone repo | Clone repo |
+| **Setup** | One command (`curl \| bash`) or paste a prompt | Clone repo + configure agents | Clone repo | Clone repo |
 
 ---
 
