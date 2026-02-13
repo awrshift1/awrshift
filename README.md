@@ -1,6 +1,6 @@
 <h1 align="center">
   <a href="https://github.com/awrshift1/awrshift">
-    <img alt="awrshift" src="media/hero-banner.png" width="100%">
+    <img alt="AWRSHIFT" src="media/hero-banner.png" width="100%">
   </a>
 </h1>
 
@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <sub><b>Awareness Shift</b> -- from chatting to deciding</sub>
+  <sub><b>Awareness Shift for AI</b> -- from chatting to deciding</sub>
 </p>
 
 <p align="center">
@@ -41,12 +41,12 @@ Pick whichever path matches how you use AI.
 
 ### Path A: On the web (Claude, ChatGPT, Gemini)
 
-Copy the [awrshift prompt](framework/prompt.md) into any AI conversation. Paste it as the first message in a new chat, or add it to your custom instructions / system prompt settings.
+Copy the [AWRSHIFT prompt](framework/prompt.md) into any AI conversation. Paste it as the first message in a new chat, or add it to your custom instructions / system prompt settings.
 
 Here's a taste of what the prompt tells your AI:
 
 ```
-You follow the awrshift methodology -- Awareness Shift.
+You follow the AWRSHIFT methodology -- Awareness Shift for AI.
 
 Core principle: research before building. Never jump to a solution
 without understanding the problem first.
@@ -65,7 +65,7 @@ That's the Quick mode version. The [full prompt](framework/prompt.md) includes S
 
 ### Path B: Claude Code or Windsurf
 
-If you use a coding AI in the terminal, awrshift integrates directly into your project. One command:
+If you use a coding AI in the terminal, AWRSHIFT integrates directly into your project. One command:
 
 ```bash
 curl -sL https://raw.githubusercontent.com/awrshift1/awrshift/main/install.sh | bash
@@ -95,32 +95,32 @@ your-project/
     next-session.md          -- Session handoff (what was done, what's next)
     decisions.md             -- Decision log (choices made and why)
   framework/
-    methodology.md           -- Full awrshift methodology (3 modes, all phases)
+    methodology.md           -- Full AWRSHIFT methodology (3 modes, all phases)
     experiment-template.md   -- STATUS.md template for experiments
   .claude/
     commands/think.md        -- The /think command
     rules/awshift-phases.md  -- Phase enforcement (auto-loaded)
 ```
 
-Just start a session and describe your problem. Or type `/think` for a guided start. Either way, the AI follows the full awrshift method automatically -- it identifies the problem, researches it, proposes a plan, and waits for your approval before building anything.
+Just start a session and describe your problem. Or type `/think` for a guided start. Either way, the AI follows the full AWRSHIFT method automatically -- it identifies the problem, researches it, proposes a plan, and waits for your approval before building anything.
 
 **What happens after setup:** Your AI reads the rules and context files at the start of each session. It remembers your project context, past decisions, and where the last session left off. It pauses at checkpoints, asks for your approval, and never skips research. You don't need to explain the method or remind it of anything -- it already knows.
 
 ---
 
-## What Is awrshift?
+## What Is AWRSHIFT?
 
 AI is powerful but reckless. It skips research, invents facts, and builds the wrong thing with absolute confidence.
 
-awrshift fixes that. It's a method you can use with any AI tool -- Claude, ChatGPT, Gemini, Cursor, Windsurf -- that adds **five human decision points** to every task. Your AI investigates before it acts. You review before it continues.
+AWRSHIFT fixes that. It's a method you can use with any AI tool -- Claude, ChatGPT, Gemini, Cursor, Windsurf -- that adds **five human decision points** to every task. Your AI investigates before it acts. You review before it continues.
 
 The result: decisions you actually trust, built on research instead of guesswork.
 
 Here's the difference:
 
-> **Without awrshift:** You ask a question. The AI gives you an answer in 3 seconds. You have no idea if it's good. You use it anyway. Sometimes it works. Sometimes you waste an entire day fixing what the AI confidently got wrong.
+> **Without AWRSHIFT:** You ask a question. The AI gives you an answer in 3 seconds. You have no idea if it's good. You use it anyway. Sometimes it works. Sometimes you waste an entire day fixing what the AI confidently got wrong.
 >
-> **With awrshift:** You describe a problem. The AI researches it, shows you what it found, proposes options with trade-offs, and waits for your "go ahead" before doing anything. You make decisions based on evidence, not vibes.
+> **With AWRSHIFT:** You describe a problem. The AI researches it, shows you what it found, proposes options with trade-offs, and waits for your "go ahead" before doing anything. You make decisions based on evidence, not vibes.
 
 The method is simple:
 - **AI proposes, you decide.** At every checkpoint, the AI shows its work and waits.
@@ -130,7 +130,7 @@ The method is simple:
 
 No special tools. No technical knowledge. Works with whatever AI you're already using.
 
-Battle-tested on **650+ real AI sessions** across life decisions, business strategy, and software engineering.
+Battle-tested on **700+ real AI sessions** across life decisions, business strategy, and software engineering.
 
 ---
 
@@ -138,7 +138,7 @@ Battle-tested on **650+ real AI sessions** across life decisions, business strat
 
 Not every problem needs the same process. A typo fix doesn't need three rounds of research. Choosing a go-to-market strategy for a new market does.
 
-awrshift has three modes. Start with Quick. Level up when the problem demands it.
+AWRSHIFT has three modes. Start with Quick. Level up when the problem demands it.
 
 | Quick | | Standard | | Scientific |
 |:---:|:---:|:---:|:---:|:---:|
@@ -235,11 +235,11 @@ You can always start with Quick and level up. Most people do. The framework is d
 
 ## See It in Action
 
-Real examples showing awrshift from start to finish. Each one walks through the full process -- the problem, the research, the checkpoints, and the final decision.
+Real examples showing AWRSHIFT from start to finish. Each one walks through the full process -- the problem, the research, the checkpoints, and the final decision.
 
 ### Life decisions
 
-These are the examples that surprise people. awrshift isn't just for code -- it works for any decision that benefits from structured thinking.
+These are the examples that surprise people. AWRSHIFT isn't just for code -- it works for any decision that benefits from structured thinking.
 
 | Example | Mode | What you'll see |
 |---------|------|-----------------|
@@ -262,15 +262,15 @@ These are the examples that surprise people. awrshift isn't just for code -- it 
 | [Architecture decision](examples/technical/architecture-decision.md) | Scientific | Database selection with benchmarks, evaluation criteria, and a data-driven comparison between three options. |
 | [Bug investigation](examples/technical/bug-investigation.md) | Quick -> Standard | Starts as a simple fix. Levels up when the root cause turns out to be deeper than expected. A clean demonstration of how leveling up works in practice. |
 
-**Don't see your use case?** The method works for any decision. If you can describe the problem, awrshift can help you solve it. Want to add your own example? [Here's how.](#contribute)
+**Don't see your use case?** The method works for any decision. If you can describe the problem, AWRSHIFT can help you solve it. Want to add your own example? [Here's how.](#contribute)
 
 ---
 
 ## How It Compares
 
-There are several frameworks for working with AI. Here's how awrshift is different.
+There are several frameworks for working with AI. Here's how AWRSHIFT is different.
 
-| | awrshift | BMAD | Cursor Superpowers | Spec Kit |
+| | AWRSHIFT | BMAD | Cursor Superpowers | Spec Kit |
 |---|---------|------|-------------------|----------|
 | **Before building** | 3 research phases | Role discussion | Jump to code | Write a spec |
 | **Who decides** | You (5 checkpoints) | Team roles | You review | You review |
@@ -278,9 +278,9 @@ There are several frameworks for working with AI. Here's how awrshift is differe
 | **Beyond code** | Yes -- life, business, tech | No -- software only | No -- software only | No -- software only |
 | **Prerequisites** | None. Any AI tool. | Cursor-specific roles | Cursor-specific | IDE-specific |
 
-The biggest difference: awrshift is the only method designed for **decisions beyond software**. The same framework that helps you pick a database also helps you choose a go-to-market strategy, plan a product launch, or evaluate a hiring decision.
+The biggest difference: AWRSHIFT is the only method designed for **decisions beyond software**. The same framework that helps you pick a database also helps you choose a go-to-market strategy, plan a product launch, or evaluate a hiring decision.
 
-Other frameworks optimize how AI writes code. awrshift optimizes how you *think with* AI.
+Other frameworks optimize how AI writes code. AWRSHIFT optimizes how you *think with* AI.
 
 **A note on "beyond code":** This matters more than it seems. Decision-making is a universal skill. Once you learn to add research phases and checkpoints to AI-assisted coding, you start doing it everywhere -- choosing vendors, planning projects, evaluating strategies. That's the awareness shift.
 
@@ -325,13 +325,13 @@ Without saying a word about context, you just type: "Let's finish the webhook er
 
 Five minutes of setup. Your AI stops starting from scratch.
 
-[Read the full Brain guide -- with templates, tips, and real examples from 650+ sessions ->](docs/brain.md)
+[Read the full Brain guide -- with templates, tips, and real examples from 700+ sessions ->](docs/brain.md)
 
 ---
 
 ## Why I Built This
 
-I built awrshift after 650+ AI problem-solving sessions. Here's what I learned.
+I built AWRSHIFT after 700+ AI problem-solving sessions. Here's what I learned.
 
 In the early days, I'd give AI a task and let it run. It would jump straight to building -- skipping research, ignoring edge cases, making confident-sounding decisions that turned out to be wrong. I'd spend hours fixing what it built instead of minutes guiding what it should build.
 
@@ -339,7 +339,7 @@ The pattern was always the same: **AI makes mistakes when it skips thinking and 
 
 So I started adding pauses. "Before you build anything, research this first." "Show me three options before you pick one." "Don't move forward until I say so."
 
-Over hundreds of sessions, those pauses became checkpoints. The checkpoints became a method. The method became awrshift.
+Over hundreds of sessions, those pauses became checkpoints. The checkpoints became a method. The method became AWRSHIFT.
 
 The core idea is embarrassingly simple: AI should research before it builds, and humans should approve before AI continues. Five moments in every task where you look at the work, ask questions, and decide what happens next.
 
@@ -347,17 +347,17 @@ It's not complicated. It's not a framework you need a week to learn. You paste a
 
 It works with any AI tool you already use. No special software. No technical knowledge required. Just a better way to think *with* AI instead of hoping it thinks *for* you.
 
-If you're curious about the technical validation: this method has been used across 650+ sessions of real software development, including a full content generation pipeline, architectural decisions, SEO optimization, and AI detection work. The three modes, the checkpoints, the leveling-up pattern -- all of it was refined through actual use, not theoretical design.
+If you're curious about the technical validation: this method has been used across 700+ sessions of real software development, including a full content generation pipeline, architectural decisions, SEO optimization, and AI detection work. The three modes, the checkpoints, the leveling-up pattern -- all of it was refined through actual use, not theoretical design.
 
 ---
 
-## What "Awareness Shift" Means
+## What "Awareness Shift for AI" Means
 
 Most people treat AI like a search engine -- type a question, get an answer, move on. That works for simple lookups. It falls apart for anything that requires judgment.
 
-**awrshift** is the moment you realize AI can be something more: a thinking partner that researches problems, proposes solutions, and waits for your approval before acting.
+**AWRSHIFT** is the moment you realize AI can be something more: a thinking partner that researches problems, proposes solutions, and waits for your approval before acting.
 
-The name stands for **Awareness Shift** -- a shift in how you see your relationship with AI. You stop accepting whatever it gives you. You start directing how it works.
+The name stands for **Awareness Shift for AI** -- a shift in how you see your relationship with AI. You stop accepting whatever it gives you. You start directing how it works.
 
 Same AI tool. Completely different results.
 
@@ -373,7 +373,7 @@ It works with any AI that can follow instructions. The core idea -- research bef
 
 **"Isn't this just... prompting?"**
 
-Yes, in the same way that a recipe is "just instructions." The value isn't in the technology -- it's in the structure. These specific checkpoints, in this specific order, produce consistently better outcomes than ad-hoc prompting. That's what 650+ sessions taught us.
+Yes, in the same way that a recipe is "just instructions." The value isn't in the technology -- it's in the structure. These specific checkpoints, in this specific order, produce consistently better outcomes than ad-hoc prompting. That's what 700+ sessions taught us.
 
 **"Do I need to use all three modes?"**
 
@@ -381,11 +381,11 @@ No. Most people only use Quick mode. If you never need Standard or Scientific, t
 
 **"I'm not a developer. Will this work for me?"**
 
-Absolutely. The life and business examples (GTM strategy, marketing budget, hiring, planning a move) don't involve any code. awrshift is a thinking method, not a coding tool. If you can describe a problem to an AI, you can use awrshift.
+Absolutely. The life and business examples (GTM strategy, marketing budget, hiring, planning a move) don't involve any code. AWRSHIFT is a thinking method, not a coding tool. If you can describe a problem to an AI, you can use AWRSHIFT.
 
 **"What if I'm already using BMAD / Cursor Superpowers / another framework?"**
 
-awrshift is complementary. Other frameworks focus on how AI writes code. awrshift focuses on how you make decisions *with* AI. You can use awrshift's thinking method alongside any coding framework.
+AWRSHIFT is complementary. Other frameworks focus on how AI writes code. AWRSHIFT focuses on how you make decisions *with* AI. You can use AWRSHIFT's thinking method alongside any coding framework.
 
 ---
 
@@ -393,7 +393,7 @@ awrshift is complementary. Other frameworks focus on how AI writes code. awrshif
 
 ```
 framework/
-  awrshift.md           -- The complete methodology (all three modes)
+  AWRSHIFT.md           -- The complete methodology (all three modes)
   quick-mode.md        -- Quick mode in detail
   standard-mode.md     -- Standard mode in detail
   scientific-mode.md   -- Scientific mode in detail
@@ -419,7 +419,7 @@ claude-code/           -- Ready-to-use setup for Claude Code / Windsurf
     next-session.md    -- Session handoff (what was done, what's next)
     decisions.md       -- Decision log (choices and reasoning)
   framework/           -- Methodology reference
-    methodology.md     -- Full awrshift methodology (all phases, all modes)
+    methodology.md     -- Full AWRSHIFT methodology (all phases, all modes)
     experiment-template.md -- STATUS.md template for experiments
   .claude/commands/    -- The /think command
   .claude/rules/       -- Phase enforcement rules (auto-loaded)
@@ -435,19 +435,19 @@ Everything is plain markdown. No build step, no installation, no prerequisites. 
 
 ## Share
 
-Found awrshift useful? Help others discover it.
+Found AWRSHIFT useful? Help others discover it.
 
 <p align="center">
-  <a href="https://twitter.com/intent/tweet?text=awrshift%20%E2%80%94%20a%20decision-making%20methodology%20for%20AI.%20Research%20before%20building%2C%20human%20decides%20at%20every%20checkpoint.%20Check%20it%20out%3A%20https%3A%2F%2Fgithub.com%2Fawrshift%2Fawrshift&via=awrshift1" target="_blank">
+  <a href="https://twitter.com/intent/tweet?text=AWRSHIFT%20%E2%80%94%20a%20decision-making%20methodology%20for%20AI.%20Research%20before%20building%2C%20human%20decides%20at%20every%20checkpoint.%20Check%20it%20out%3A%20https%3A%2F%2Fgithub.com%2Fawrshift%2Fawrshift&via=awrshift1" target="_blank">
     <img src="https://img.shields.io/badge/Share%20on-Twitter-1DA1F2?style=flat-square&logo=twitter&logoColor=white" alt="Share on Twitter">
   </a>
   <a href="https://www.linkedin.com/sharing/share-offsite/?url=https://github.com/awrshift1/awrshift" target="_blank">
     <img src="https://img.shields.io/badge/Share%20on-LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="Share on LinkedIn">
   </a>
-  <a href="https://reddit.com/submit?url=https://github.com/awrshift1/awrshift&title=awrshift%20—%20Decision-Making%20Methodology%20for%20AI" target="_blank">
+  <a href="https://reddit.com/submit?url=https://github.com/awrshift1/awrshift&title=AWRSHIFT%20—%20Decision-Making%20Methodology%20for%20AI" target="_blank">
     <img src="https://img.shields.io/badge/Share%20on-Reddit-FF4500?style=flat-square&logo=reddit&logoColor=white" alt="Share on Reddit">
   </a>
-  <a href="https://news.ycombinator.com/submitlink?u=https://github.com/awrshift1/awrshift&t=awrshift%20—%20Decision-Making%20Methodology%20for%20AI" target="_blank">
+  <a href="https://news.ycombinator.com/submitlink?u=https://github.com/awrshift1/awrshift&t=AWRSHIFT%20—%20Decision-Making%20Methodology%20for%20AI" target="_blank">
     <img src="https://img.shields.io/badge/Submit%20to-Hacker%20News-FF4500?style=flat-square&logo=y-combinator&logoColor=white" alt="Submit to Hacker News">
   </a>
 </p>
@@ -456,15 +456,15 @@ Found awrshift useful? Help others discover it.
 
 ## Contribute
 
-awrshift gets better when people share how they use it. There's something for everyone, whether you've never made a pull request or you live in your terminal.
+AWRSHIFT gets better when people share how they use it. There's something for everyone, whether you've never made a pull request or you live in your terminal.
 
-**Share your experience** -- [Open an issue](https://github.com/awrshift1/awrshift/issues) and tell us how awrshift worked for your use case. What went well? What was confusing? What would you change? This is the easiest and most valuable way to help.
+**Share your experience** -- [Open an issue](https://github.com/awrshift1/awrshift/issues) and tell us how AWRSHIFT worked for your use case. What went well? What was confusing? What would you change? This is the easiest and most valuable way to help.
 
-**Add an example** -- Used awrshift for an interesting decision? Write it up and [submit a pull request](https://github.com/awrshift1/awrshift/blob/main/CONTRIBUTING.md) to the `examples/` folder. Life decisions, business decisions, technical decisions -- anything works. Real-world examples are the most valuable content in this repo.
+**Add an example** -- Used AWRSHIFT for an interesting decision? Write it up and [submit a pull request](https://github.com/awrshift1/awrshift/blob/main/CONTRIBUTING.md) to the `examples/` folder. Life decisions, business decisions, technical decisions -- anything works. Real-world examples are the most valuable content in this repo.
 
 **Improve the framework** -- Found a gap in the methodology? A phase that could be explained better? A checkpoint that feels unnecessary? PRs welcome. See the [contributing guide](CONTRIBUTING.md).
 
-**Translate** -- awrshift should work in every language. If you'd like to translate the framework or examples into your language, [open an issue](https://github.com/awrshift1/awrshift/issues) and we'll coordinate.
+**Translate** -- AWRSHIFT should work in every language. If you'd like to translate the framework or examples into your language, [open an issue](https://github.com/awrshift1/awrshift/issues) and we'll coordinate.
 
 ### Contribution ideas
 
@@ -474,7 +474,7 @@ Not sure where to start? Here are some things that would make a real difference:
 - A "hiring your first employee" example (Scientific mode, business decision)
 - A "migrating from monolith to microservices" example (Scientific mode, technical decision)
 - Translations into Spanish, Portuguese, German, Ukrainian, Japanese
-- A "How I used awrshift for..." blog post (link it in an issue and we'll feature it)
+- A "How I used AWRSHIFT for..." blog post (link it in an issue and we'll feature it)
 
 ---
 
@@ -482,12 +482,12 @@ Not sure where to start? Here are some things that would make a real difference:
 
 [MIT](LICENSE) -- Use it however you want. Build on it, adapt it, share it.
 
-Attribution appreciated but not required. If awrshift helps you make better decisions, that's all the thanks we need.
+Attribution appreciated but not required. If AWRSHIFT helps you make better decisions, that's all the thanks we need.
 
 ---
 
 <p align="center">
-  <sub>Built by <a href="https://github.com/awrshift1">awrshift</a> -- battle-tested across 650+ AI problem-solving sessions.</sub>
+  <sub>Built by <a href="https://github.com/awrshift1">AWRSHIFT</a> -- battle-tested across 700+ AI problem-solving sessions.</sub>
 </p>
 <p align="center">
   <sub>Research first. Build right.</sub>

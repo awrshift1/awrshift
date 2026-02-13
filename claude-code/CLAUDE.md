@@ -1,4 +1,4 @@
-# awrshift -- AI Problem-Solving Framework
+# AWRSHIFT -- AI Problem-Solving Framework
 
 Structured problem-solving: research before building. Human decides, AI executes.
 
@@ -11,7 +11,7 @@ context/                    # Session memory (read at start, update at end)
   decisions.md              # Decision log (choices made and why)
 
 framework/                  # Methodology reference
-  methodology.md            # Full awrshift methodology (3 modes, all phases)
+  methodology.md            # Full AWRSHIFT methodology (3 modes, all phases)
   experiment-template.md    # STATUS.md template for new experiments
 
 experiments/                # Auto-created when you start a task with the framework
@@ -65,7 +65,7 @@ When the user signals the session is ending ("done", "let's wrap up", "bye", or 
 
 Don't ask "should I update?" -- just do it and show a brief summary.
 
-## Problem Solving (awrshift)
+## Problem Solving (AWRSHIFT)
 
 | Mode | Phases | Trigger |
 |------|--------|---------|
@@ -79,7 +79,7 @@ When unsure, start Quick. Level up if unknowns emerge.
 
 ## Experiment Auto-Setup
 
-When the user asks to solve a task using the framework (any phrasing: "use awrshift for...", "let's solve X", "create experiment for...", or `/think`):
+When the user asks to solve a task using the framework (any phrasing: "use AWRSHIFT for...", "let's solve X", "create experiment for...", or `/think`):
 
 ### Step 1: Ask the user to choose a mode (MANDATORY)
 
@@ -139,4 +139,4 @@ phases/
 
 ---
 
-*awrshift v1.2 -- See /think command for quick activation, or just describe your task.*
+*AWRSHIFT v1.2 -- See /think command for quick activation, or just describe your task.*

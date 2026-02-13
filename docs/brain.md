@@ -170,7 +170,7 @@ Decisions made in this project. Once decided, don't re-discuss unless status cha
 
 **Time needed: 5 minutes.**
 
-### If you installed awrshift (Claude Code / Windsurf)
+### If you installed AWRSHIFT (Claude Code / Windsurf)
 
 **You're already set.** The install script created all three files in `context/`. Your AI reads them automatically at session start and updates them automatically at session end. No manual work needed.
 
@@ -214,7 +214,7 @@ Without saying a word about context, you can just type: "Let's finish the webhoo
 
 ---
 
-## Tips from 650+ Sessions
+## Tips from 700+ Sessions
 
 These patterns come from a real project that has been using this system across hundreds of AI sessions:
 

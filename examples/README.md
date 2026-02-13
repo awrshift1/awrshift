@@ -1,6 +1,6 @@
 # Examples
 
-Real-world walkthroughs showing how awrshift works — from life decisions to technical architecture. Each example uses a different mode and shows exactly what the process looks like, including every checkpoint where you stay in control.
+Real-world walkthroughs showing how AWRSHIFT works — from life decisions to technical architecture. Each example uses a different mode and shows exactly what the process looks like, including every checkpoint where you stay in control.
 
 ## Life Decisions
 
@@ -43,7 +43,7 @@ Architecture and engineering decisions where the wrong choice costs months.
 
 1. **Start with your world.** If you're non-technical, start with [Choosing a School](life/choosing-a-school.md) or [Planning a Move](life/planning-a-move.md). If you're a builder, start with [Product Launch](business/product-launch.md) or [Bug Investigation](technical/bug-investigation.md).
 
-2. **Notice the checkpoints.** Every example has moments marked "Checkpoint" where the human reviews, adjusts, and approves. That's the core of awrshift — AI does the work, you make the calls.
+2. **Notice the checkpoints.** Every example has moments marked "Checkpoint" where the human reviews, adjusts, and approves. That's the core of AWRSHIFT — AI does the work, you make the calls.
 
 3. **Watch for the "aha" moment.** In every example, there's a point where the structured process catches something that gut instinct would have missed. That's why the method exists.
 

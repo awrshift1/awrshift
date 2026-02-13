@@ -1,4 +1,4 @@
-Activate the awrshift problem-solving framework.
+Activate the AWRSHIFT problem-solving framework.
 
 ## Step 1: Assess complexity
 

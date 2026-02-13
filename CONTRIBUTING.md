@@ -1,6 +1,6 @@
-# Contributing to awrshift
+# Contributing to AWRSHIFT
 
-Thank you for your interest in improving awrshift. This guide explains how to contribute.
+Thank you for your interest in improving AWRSHIFT. This guide explains how to contribute.
 
 ---
 
@@ -8,7 +8,7 @@ Thank you for your interest in improving awrshift. This guide explains how to co
 
 ### Tier 1: Share Your Experience (Easy)
 
-Share how you used awrshift. Open a [Use Case issue](../../issues/new?template=use-case.md) with:
+Share how you used AWRSHIFT. Open a [Use Case issue](../../issues/new?template=use-case.md) with:
 
 - What problem you solved
 - Which mode you used (Quick/Standard/Scientific)
@@ -33,7 +33,7 @@ Good example topics:
 
 ### Tier 3: Platform Adaptation (Medium)
 
-Adapt awrshift for a new AI platform. Create a folder under a new platform directory:
+Adapt AWRSHIFT for a new AI platform. Create a folder under a new platform directory:
 
 ```
 platforms/
@@ -46,7 +46,7 @@ platforms/
 ```
 
 Each adaptation should:
-- Map awrshift phases to the platform's capabilities
+- Map AWRSHIFT phases to the platform's capabilities
 - Include setup instructions
 - Test that the AI follows the framework
 
@@ -62,7 +62,7 @@ Changes to `framework/awrshift.md` or the phase structure itself.
 5. If consensus → submit PR
 
 Core changes should be:
-- Backed by real usage data ("I used awrshift 50 times and phase X consistently fails because...")
+- Backed by real usage data ("I used AWRSHIFT 50 times and phase X consistently fails because...")
 - Backwards compatible when possible
 - Documented with clear reasoning
 

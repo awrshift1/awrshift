@@ -3,7 +3,7 @@
 **Mode:** Scientific (13 phases, 6 checkpoints)
 **Scenario:** A SaaS company ($2M ARR, workflow automation) needs to enter the European market with $150K in Q3-Q4 and three viable approaches.
 **Outcome:** The "obvious" winner — paid acquisition — turned out to have the worst ROI. A regulatory advantage nobody considered made the partner channel the clear winner.
-**Time with awrshift:** ~12 hours across 3 days
+**Time with AWRSHIFT:** ~12 hours across 3 days
 
 ---
 
@@ -214,4 +214,4 @@ The regulatory advantage is temporary — competitors will figure out the partne
 
 ---
 
-*awrshift helped compare three go-to-market strategies with real data. Same method works for any decision with multiple viable approaches.*
+*AWRSHIFT helped compare three go-to-market strategies with real data. Same method works for any decision with multiple viable approaches.*

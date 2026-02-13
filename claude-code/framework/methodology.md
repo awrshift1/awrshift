@@ -1,13 +1,13 @@
-# awrshift -- AI Problem-Solving Framework
+# AWRSHIFT -- AI Problem-Solving Framework
 
 **Version:** 1.1
-**Author:** [awrshift](https://github.com/awrshift1)
+**Author:** [AWRSHIFT](https://github.com/awrshift1)
 
 ---
 
-## What is awrshift?
+## What is AWRSHIFT?
 
-awrshift is a structured thinking framework for working with AI assistants. It adds **research, verification, and decision checkpoints** to every problem -- so you stop guessing and start deciding with evidence.
+AWRSHIFT is a structured thinking framework for working with AI assistants. It adds **research, verification, and decision checkpoints** to every problem -- so you stop guessing and start deciding with evidence.
 
 **Core idea:** AI proposes, you decide. Every significant decision has a checkpoint.
 
@@ -22,7 +22,7 @@ awrshift is a structured thinking framework for working with AI assistants. It a
 
 ## Three Modes
 
-awrshift has three modes. Start with Quick. Level up when stakes go up.
+AWRSHIFT has three modes. Start with Quick. Level up when stakes go up.
 
 ```
 Quick (3 phases)     ->  Known fixes, minor tasks, routine work
@@ -338,7 +338,7 @@ Data speaks. You decide.
 
 ## Checkpoints
 
-These are the moments where awrshift pauses execution and waits for your input.
+These are the moments where AWRSHIFT pauses execution and waits for your input.
 
 ### Standard Mode (5 checkpoints)
 
@@ -471,4 +471,4 @@ Scientific: IDENTIFY -> FORMULATE -> RESEARCH -> HYPOTHESIZE
 
 ---
 
-*awrshift is open source under MIT license. Built from 650+ real problem-solving sessions.*
+*AWRSHIFT is open source under MIT license. Built from 700+ real problem-solving sessions.*

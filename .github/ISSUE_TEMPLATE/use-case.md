@@ -1,6 +1,6 @@
 ---
 name: Use Case
-about: Share how you used awrshift to solve a problem
+about: Share how you used AWRSHIFT to solve a problem
 title: "[Use Case] "
 labels: use-case
 assignees: ''
@@ -26,7 +26,7 @@ What problem did you solve?
 
 ## What Worked
 
-What phases or features of awrshift were most helpful?
+What phases or features of AWRSHIFT were most helpful?
 
 ## What Didn't Work
 
@@ -38,4 +38,4 @@ Did you modify or skip any phases? Why?
 
 ## Outcome
 
-What was the result? Would you use awrshift again for a similar problem?
+What was the result? Would you use AWRSHIFT again for a similar problem?

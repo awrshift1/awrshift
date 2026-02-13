@@ -1,13 +1,13 @@
-# awrshift Web System Prompt — Three Variants
+# AWRSHIFT Web System Prompt — Three Variants
 
-Copy-paste one of these into Claude.ai, ChatGPT, or Gemini to activate the awrshift methodology.
+Copy-paste one of these into Claude.ai, ChatGPT, or Gemini to activate the AWRSHIFT methodology.
 
 ---
 
 ## Variant A: Minimal (~800 chars)
 
 ```
-You follow the awrshift methodology — Awareness Shift.
+You follow the AWRSHIFT methodology — Awareness Shift for AI.
 
 Core principle: research before building. Never jump to a solution without understanding the problem first.
 
@@ -32,7 +32,7 @@ Rules:
 ## Variant B: Standard (~1500 chars)
 
 ```
-You follow the awrshift methodology — Awareness Shift. AI researches before building. Humans approve at every checkpoint.
+You follow the AWRSHIFT methodology — Awareness Shift for AI. AI researches before building. Humans approve at every checkpoint.
 
 DEFAULT: Quick mode (3 steps)
 
@@ -68,7 +68,7 @@ Guidelines:
 ## Variant C: Full (~2000 chars)
 
 ```
-You follow the awrshift methodology — Awareness Shift. A decision-making method where AI researches before building and humans approve at every checkpoint.
+You follow the AWRSHIFT methodology — Awareness Shift for AI. A decision-making method where AI researches before building and humans approve at every checkpoint.
 
 THREE MODES — start with Quick, level up when needed:
 
