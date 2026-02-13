@@ -1,5 +1,5 @@
 #!/bin/bash
-# awrshift installer -- sets up the AI problem-solving framework in your project
+# AWRSHIFT installer -- sets up the AI problem-solving framework in your project
 # Usage: curl -sL https://raw.githubusercontent.com/awrshift1/awrshift/main/install.sh | bash
 #
 # Safe for existing projects: merges without overwriting your files.
@@ -12,12 +12,12 @@ CYAN='\033[0;36m'
 NC='\033[0m'
 
 echo ""
-echo "  awrshift -- installing AI problem-solving framework"
+echo "  AWRSHIFT -- installing AI problem-solving framework"
 echo "  ---------------------------------------------------"
 echo ""
 
 # Clone
-echo "  Downloading awrshift..."
+echo "  Downloading AWRSHIFT..."
 git clone --quiet --depth 1 https://github.com/awrshift1/awrshift.git .awrshift-tmp 2>/dev/null
 
 ADDED=""
@@ -67,14 +67,14 @@ done
 # --- CLAUDE.md -- append if exists, create if not ---
 if [ -f "CLAUDE.md" ]; then
   # Check if awrshift section already present
-  if grep -q "awrshift" CLAUDE.md 2>/dev/null; then
-    SKIPPED="${SKIPPED}    CLAUDE.md (awrshift section already present)\n"
+  if grep -qi "awrshift" CLAUDE.md 2>/dev/null; then
+    SKIPPED="${SKIPPED}    CLAUDE.md (AWRSHIFT section already present)\n"
   else
     echo "" >> CLAUDE.md
     echo "---" >> CLAUDE.md
     echo "" >> CLAUDE.md
     cat .awrshift-tmp/claude-code/CLAUDE.md >> CLAUDE.md
-    ADDED="${ADDED}    CLAUDE.md (appended awrshift section to existing file)\n"
+    ADDED="${ADDED}    CLAUDE.md (appended AWRSHIFT section to existing file)\n"
   fi
 else
   cp .awrshift-tmp/claude-code/CLAUDE.md ./
